@@ -1,0 +1,9 @@
+{
+    "trailingSlash": false,
+    "rewrites": [
+        {
+          "source": "/docs/:any*",
+          "destination": "https://prisma2-docs.vercel.app/:any"
+        }       
+    ]
+}
